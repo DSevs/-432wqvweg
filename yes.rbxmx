@@ -2,9 +2,10 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Part" referent="RBXE74C9E1CCFAB460D976F9DD968D5BAF4">
+	<Item class="SpawnLocation" referent="RBX0CE15BE904B84535BD09A4C35CDCFEF8">
 		<Properties>
-			<bool name="Anchored">false</bool>
+			<bool name="AllowTeamChangeOnTouch">false</bool>
+			<bool name="Anchored">true</bool>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<float name="BackParamA">-0.5</float>
 			<float name="BackParamB">0.5</float>
@@ -15,9 +16,9 @@
 			<token name="BottomSurface">0</token>
 			<token name="BottomSurfaceInput">0</token>
 			<CoordinateFrame name="CFrame">
-				<X>-24.2999992</X>
-				<Y>5.90000486</Y>
-				<Z>-25.7299995</Z>
+				<X>0</X>
+				<Y>0.5</Y>
+				<Z>0</Z>
 				<R00>1</R00>
 				<R01>0</R01>
 				<R02>0</R02>
@@ -40,7 +41,9 @@
 				<CustomPhysics>false</CustomPhysics>
 			</PhysicalProperties>
 			<bool name="DefinesCapabilities">false</bool>
+			<int name="Duration">0</int>
 			<bool name="EnableFluidForces">true</bool>
+			<bool name="Enabled">true</bool>
 			<float name="FrontParamA">-0.5</float>
 			<float name="FrontParamB">0.5</float>
 			<token name="FrontSurface">0</token>
@@ -53,7 +56,8 @@
 			<bool name="Massless">false</bool>
 			<token name="Material">256</token>
 			<string name="MaterialVariantSerialized"></string>
-			<string name="Name">Part</string>
+			<string name="Name">SpawnLocation</string>
+			<bool name="Neutral">true</bool>
 			<CoordinateFrame name="PivotOffset">
 				<X>0</X>
 				<Y>0</Y>
@@ -81,6 +85,7 @@
 			</Vector3>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
+			<int name="TeamColor">194</int>
 			<float name="TopParamA">-0.5</float>
 			<float name="TopParamB">0.5</float>
 			<token name="TopSurface">0</token>
@@ -94,10 +99,29 @@
 			<token name="formFactorRaw">1</token>
 			<token name="shape">1</token>
 			<Vector3 name="size">
-				<X>4</X>
+				<X>12</X>
 				<Y>1</Y>
-				<Z>2</Z>
+				<Z>12</Z>
 			</Vector3>
 		</Properties>
+		<Item class="Decal" referent="RBXFEAD704BAA514C22AD8FB8AFC9689DF7">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<Color3 name="Color3">
+					<R>1</R>
+					<G>1</G>
+					<B>1</B>
+				</Color3>
+				<bool name="DefinesCapabilities">false</bool>
+				<token name="Face">1</token>
+				<string name="Name">Decal</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<Content name="Texture"><url>rbxasset://textures/SpawnLocation.png</url></Content>
+				<float name="Transparency">0</float>
+				<int name="ZIndex">1</int>
+			</Properties>
+		</Item>
 	</Item>
 </roblox>
